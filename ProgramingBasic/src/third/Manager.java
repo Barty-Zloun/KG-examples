@@ -7,7 +7,7 @@ package third;
 
 /**
  *
- * @author Vojtech Tosovsky
+ * @author Bartoloměj Sviták (bart1996)
  */
 public class Manager {
 
