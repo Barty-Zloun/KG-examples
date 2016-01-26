@@ -65,6 +65,7 @@ public class MathGame {
 
 	private int getAnswerFormPlayer() {
 		int answer = scanner.nextInt();
+                scanner.nextLine();
 		return answer;
 
 	}
