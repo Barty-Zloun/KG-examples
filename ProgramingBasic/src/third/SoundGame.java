@@ -6,10 +6,22 @@
 
 package third;
 
+import java.util.Scanner;
+
 /**
  *
- * @author Vojtech Tosovsky
+ * @author Bartoloměj Sviták
  */
 public class SoundGame {
-
+        private int qc;
+	private SoundUtils soundUtils = new SoundUtils();
+	private int difficulty;
+	Scanner scanner = new Scanner(System.in);
+        
+        
+       public SoundGame (int qc, int difficulty){
+           this.qc=qc;
+           this.difficulty =  difficulty;
+           
+}
 }

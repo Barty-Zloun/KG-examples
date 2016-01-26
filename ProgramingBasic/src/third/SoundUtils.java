@@ -67,6 +67,16 @@ public class SoundUtils {
 
 
 	}
+	public static void plays(String note, int msecs, double vol) {
+		try {
+			tone(ALL_NOTES[notes.get(note)], msecs, vol);
+		} catch (LineUnavailableException ex) {
+			System.out.println("Nota " + note + "nenalezena");
+			Logger.getLogger(SoundUtils.class.getName()).log(Level.SEVERE, null, ex);
+		}
+
+
+	}
 
 	public static float SAMPLE_RATE = 8000f;
 
